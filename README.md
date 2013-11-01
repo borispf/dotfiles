@@ -1,3 +1,4 @@
-* My personal config files
+My personal config files
+======
 
 To install, run `link.sh` (TODO)
