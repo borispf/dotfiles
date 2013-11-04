@@ -1,5 +1,15 @@
 [user]
-	name = Boris Pfahringer
-	email = bpnzltd@gmail.com
+    name = Boris Pfahringer
+    email = bpnzltd@gmail.com
+[core]
+    excludesfile = /Users/boris/.gitignore
 [push]
-	default = simple
+    default = simple
+[color]
+    ui = auto
+[alias]
+    co = checkout
+    go = log --graph --pretty=oneline --abbrev-commit --decorate
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    st = status
